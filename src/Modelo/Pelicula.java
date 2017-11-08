@@ -14,11 +14,11 @@ import javax.swing.ImageIcon;
 public class Pelicula extends Contenido {
     
     private String director;
-    private String año;
+    private int año;
     private String[] actores;
     
     
-    public Pelicula(int id, String nombre, String categoria, String genero, ImageIcon imagen, boolean vista, int puntuacion,String director,String año,String[] actores) {
+    public Pelicula(int id, String nombre, String categoria, String genero, ImageIcon imagen, boolean vista, int puntuacion,String director,int año,String[] actores) {
         super(id, nombre, categoria, genero, imagen, vista, puntuacion);
         this.director=director;
         this.año=año;
@@ -29,7 +29,7 @@ public class Pelicula extends Contenido {
         return director;
     }
 
-    public String getAño() {
+    public int getAño() {
         return año;
     }
 
@@ -41,7 +41,7 @@ public class Pelicula extends Contenido {
         this.director = director;
     }
 
-    public void setAño(String año) {
+    public void setAño(int año) {
         this.año = año;
     }
 

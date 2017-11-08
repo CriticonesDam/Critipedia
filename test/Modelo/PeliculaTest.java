@@ -59,7 +59,7 @@ public class PeliculaTest {
 	System.out.println("getA\u00f1o");
 	Pelicula instance = null;
 	String expResult = "";
-	String result = instance.getAño();
+	int result = instance.getAño();
 	assertEquals(expResult, result);
 	// TODO review the generated test code and remove the default call to fail.
 	fail("The test case is a prototype.");
@@ -98,7 +98,7 @@ public class PeliculaTest {
     @Test
     public void testSetAño() {
 	System.out.println("setA\u00f1o");
-	String año = "";
+	int año=0;
 	Pelicula instance = null;
 	instance.setAño(año);
 	// TODO review the generated test code and remove the default call to fail.

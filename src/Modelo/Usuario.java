@@ -121,6 +121,10 @@ public class Usuario {
         this.seguidores = seguidores;
     }
     
+    public void setSubscripciones(ArrayList<Contenido> subscripciones){
+        this.subscripciones=subscripciones;
+    }
+    
     
     //METODOS PARA LA CLASE USUARIO
             

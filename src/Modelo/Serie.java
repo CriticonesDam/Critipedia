@@ -16,6 +16,7 @@ public class Serie extends Contenido {
     
     String cadenaEmisora;
     TreeMap<Integer,Integer> temporadas;
+    String rutaImagen;
 
     
     public Serie(int id,String nombre,String categoria,String genero,ImageIcon imagen,boolean vista,int puntuacion,String cadenaEmisora, TreeMap<Integer, Integer> temporadas) {
@@ -28,6 +29,9 @@ public class Serie extends Contenido {
     public String getCadenaEmisora() {
         return cadenaEmisora;
     }
+    public String getRutaImagen() {
+        return rutaImagen;
+    }
 
     public TreeMap<Integer, Integer> getTemporadas() {
         return temporadas;
@@ -35,6 +39,9 @@ public class Serie extends Contenido {
 
     public void setCadenaEmisora(String cadenaEmisora) {
         this.cadenaEmisora = cadenaEmisora;
+    }
+    public void setRutaImagen(String i) {
+        this.rutaImagen = i;
     }
 
     public void setTemporadas(TreeMap<Integer, Integer> temporadas) {

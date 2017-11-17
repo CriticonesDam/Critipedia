@@ -14,6 +14,7 @@ public class Usuario {
     private ImageIcon avatar;
     private Date fechaRegistro;
     private Date fechaNacimiento;
+    private String rutaImagen;
     
     private ArrayList<Usuario> seguidos;
     private ArrayList<Usuario> seguidores;
@@ -69,6 +70,10 @@ public class Usuario {
     public Date getFechaNacimiento() {
         return fechaNacimiento;
     }
+	
+	public String getRutaImagen(){
+		return rutaImagen;	
+	}
 
     public ArrayList<Usuario> getSeguidos() {
         return seguidos;
@@ -108,6 +113,10 @@ public class Usuario {
     public void setFechaRegistro(Date fechaRegistro) {
         this.fechaRegistro = fechaRegistro;
     }
+	
+	public void setRutaImagen(String i){
+		this.rutaImagen=i;	
+	}
 
     public void setFechaNacimiento(Date fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;

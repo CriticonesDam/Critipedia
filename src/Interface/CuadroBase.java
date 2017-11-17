@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package critipediainterface_uno_dos;
+package Interface;
 
 import java.awt.Dimension;
 
@@ -43,7 +43,6 @@ public class CuadroBase extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(680, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

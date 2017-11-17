@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package critipediainterface_uno_dos;
+package Interface;
 
 import javax.swing.JOptionPane;
 
